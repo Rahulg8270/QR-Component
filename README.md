@@ -12,7 +12,6 @@
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -79,7 +78,7 @@ I want to refine my UI/UX skill of picking a good typography and adding the righ
 - Portfolio - [Rahul G](https://www.crio.do/learn/portfolio/rahul-g8270/?edit=true)
 - Frontend Mentor - [@Rahulg8270](https://www.frontendmentor.io/profile/Rahulg8270)
 - Twitter - [@Rahulg66919](https://x.com/Rahulg66919)
-- Linkedin - [Rahul G](https://www.linkedin.com/in/rahulganta/)
+- Linkedin - [/rahulganta](https://www.linkedin.com/in/rahulganta/)
 
 
 
