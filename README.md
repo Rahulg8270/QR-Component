@@ -31,7 +31,7 @@
 
 - Semantic HTML5 markup
 - Flexbox
-- fluid units
+- relative units
 
 
 ### What I learned
