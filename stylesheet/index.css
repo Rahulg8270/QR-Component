@@ -10,14 +10,14 @@
 }
 body {
   font-family: "Outfit", sans-serif;
-  font-size: 0.93rem;
+  /* font-size: clamp(0.85rem,); */
   width: 100vw;
   background-color: var(--tertiary-bg-color);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: calc(1vw + 10px);
+  padding: 5vw;
 }
 .qr-container {
   width: 100%;
