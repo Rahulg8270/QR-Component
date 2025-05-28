@@ -10,22 +10,24 @@
 }
 body {
   font-family: "Outfit", sans-serif;
-  /* font-size: clamp(0.85rem,); */
+  font-size: max(0.60rem,0.93rem);
   width: 100vw;
   background-color: var(--tertiary-bg-color);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5vw;
+  padding: calc(100vw - 80%);
 }
 .qr-container {
-  width: 100%;
-  max-width: 21.87rem;
+  width: clamp(80%, 50vw, 100%);
+  max-width: min(20rem,21.87rem);
   background-color: var(--white-color);
   border-radius: var(--border-radius);
   padding: 1.2em;
   text-align: center;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 .qr-container img {
   width: 100%;
