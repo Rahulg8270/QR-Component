@@ -17,7 +17,7 @@
 
 ### Screenshot
 
-![](./images/QR-component-solution.png)
+![QR component screenshot](./images/QR-component-solution.png)
 
 
 ### Links

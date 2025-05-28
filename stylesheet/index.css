@@ -2,45 +2,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --primary-color:hsl(218, 44%, 22%);
+  --secondary-color:hsl(216, 15%, 48%);
+  --tertiary-bg-color:hsl(212, 45%, 89%);
+  --white-color:#fff;
+  --border-radius: 0.93rem;
 }
 body {
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
-  background-color: hsl(212, 45%, 89%);
+  font-size: 0.93rem;
   width: 100vw;
+  background-color: var(--tertiary-bg-color);
   height: 100vh;
-  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: calc(1vw + 10px);
 }
-#qr-container {
-  width: 90%;
-  max-width: 350px;
-  box-shadow: 4px 4px 4px rgb(149, 148, 148);
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 1.2em;
-}
-#qr-container img {
+.qr-container {
   width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-}
-h2,
-p {
-  padding: 0.6rem 0;
-  max-width: 300px;
-  line-height: 1.2;
+  max-width: 21.87rem;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius);
+  padding: 1.2em;
   text-align: center;
 }
-h2 {
-  color: hsl(218, 44%, 22%);
+.qr-container img {
+  width: 100%;
+  max-width:18.75rem;
+  border-radius: var(--border-radius);
+}
+h1,
+p {
+  padding:0.8rem 0.6rem;
+  max-width: 18.75rem;
+  line-height: 1.2;
+}
+h1 {
   font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--primary-color)
 }
 p {
-  color: hsl(216, 15%, 48%);
+  max-width: 18.50rem;
   font-weight: 400;
+  color: var(--secondary-color);  
 }
-
-
