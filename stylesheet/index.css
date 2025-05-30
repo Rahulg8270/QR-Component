@@ -51,7 +51,6 @@ p {
 
 @media (orientation: landscape){
   body {
-    height: auto;
-    padding: 1.5rem;
- }
+    padding: 2rem;
+  }
 }
